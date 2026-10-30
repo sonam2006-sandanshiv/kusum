@@ -1,0 +1,14 @@
+{
+  "name": "kusum-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kusum prototype API: staff/guardian auth, patient registry, access requests, media tokens",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0",
+    "@fastify/cors": "^10.0.1"
+  }
+}

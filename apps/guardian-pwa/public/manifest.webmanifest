@@ -1,0 +1,12 @@
+{
+  "name": "Kusum Guardian",
+  "short_name": "Kusum",
+  "description": "Live patient monitoring for verified guardians",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f5f8",
+  "theme_color": "#1d8a4e",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

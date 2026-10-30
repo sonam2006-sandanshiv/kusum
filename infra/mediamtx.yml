@@ -1,0 +1,22 @@
+# MediaMTX config — kusum prototype
+# Raw camera streams stay internal (RTSP :8554). Only token-checked WebRTC playback on :8889.
+logLevel: info
+api: yes
+apiAddress: :9997
+
+rtsp: yes
+rtspAddress: :8554
+rtmp: no
+hls: no
+srt: no
+
+webrtc: yes
+webrtcAddress: :8889
+
+# Every publish/read hits our API, which enforces:
+#  - publish: only publishers carrying the shared secret (camera sim + vision worker)
+#  - read:    short-lived signed media tokens scoped to one stream path
+authHTTPAddress: http://localhost:3001/media/auth
+
+paths:
+  all_others:

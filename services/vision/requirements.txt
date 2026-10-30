@@ -1,0 +1,5 @@
+numpy>=1.26
+opencv-python>=4.9
+# Real nudity detection (fail-closed worker falls back to full blur if missing).
+# Heavy (~200MB with onnxruntime) — the --mock mode runs without it.
+nudenet>=3.3 ; python_version < "3.14"

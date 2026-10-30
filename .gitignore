@@ -1,0 +1,7 @@
+node_modules/
+data/
+__pycache__/
+*.pyc
+infra/bin/
+apps/api/*.db
+.DS_Store
