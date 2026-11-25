@@ -1,2 +1,2 @@
 
-main repo is kusum 1.0
+main repo is kusum 0.1
